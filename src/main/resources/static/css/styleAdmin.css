@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root {
+  --greyish-color: #7c7575;
+  --yellow-color: #fdd835;
+  --red-color: #dc3545;
+  --blue-color: #3b5998;
+  --gray-color: #505050;
+}
+
+/* start header */
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+input.error.fail-alert {
+  border: solid 1px var(--red-color);
+  color: var(--red-color);
+}
+
+input.valid.success-alert {
+  border: solid 1px green;
+  color: green;
+}
+/* end header */
+#searchDataTable {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  #searchDataTable {
+    width: 100%;
+  }
+}
+
+#form-account .btn-show-pw,
+#form-account .btn-show-pw {
+  top: 5%;
+  left: 98%;
+  transform: translate(-100%, 25%);
+  cursor: pointer;
+}
+
+#form-account input.password:focus ~ .btn-show-pw,
+#form-account input.password:focus ~ .btn-show-pw {
+  display: block !important;
+}

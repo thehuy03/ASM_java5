@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root {
+  --greyish-color: #7c7575;
+  --yellow-color: #fdd835;
+  --red-color: #dc3545;
+  --blue-color: #3b5998;
+  --gray-color: #505050;
+}
+
+
+
+  /* Detail_relate_to */
+  .carousel {
+    background: #EEE;
+  }
+
+
+  
+  .carousel-cell:hover{
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 1px rgba(226, 226, 226, 0.2), 3px 6px 20px 3px rgba(0, 0, 0, 0.19);
+  }
+  
+
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .name_relate span,a{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: small;
+    text-decoration: none;
+    color: #333333;
+}
+.name_relate span:hover{
+  color: #007bff;
+}
+
+
+

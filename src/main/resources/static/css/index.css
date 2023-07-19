@@ -1,0 +1,32 @@
+/*Header start*/
+.posision-account {
+    width: fit-content;
+    background-color: #FC939D;
+}
+
+.header-bg {
+    background-image: linear-gradient(to right, #f66370, #f05865, #e94d5a, #e34250, #dc3545);
+}
+
+.dropdown-bg {
+    background-color: #FFFFFF;
+    font-size: 12px !important;
+    font-family: Nunito Sans, sans-serif;
+}
+
+.nav-bar {
+    background-color: #FFFFFF;
+}
+
+.nav-bar>ul>li {
+    background-color: #F8F9FA;
+}
+
+/* .nav-bar ul li:hover{
+    background-color:#f66370;
+} */
+.nav-bar>ul>li:hover>a {
+    background-color: #f66370;
+    color: #F8F9FA;
+}
+/*Header end*/
